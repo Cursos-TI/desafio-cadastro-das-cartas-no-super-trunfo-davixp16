@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+// especificaçao de cada classe 
 int main() {
     char estado1, estado2;
     char codigo1[4], codigo2[4];
@@ -7,7 +7,7 @@ int main() {
     int populacao1, populacao2;
     float area1, area2, pib1, pib2;
     int pontosTuristicos1, pontosTuristicos2;
-    
+    // coleta de dados das cartas com scanf e printf, nao vi a necessidade de utilizar fgets ate o momento 
     printf("Digite o estado da primeira carta (A-H): ");
     scanf(" %c", &estado1);
     printf("Digite o código da primeira carta: ");
